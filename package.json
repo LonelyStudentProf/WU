@@ -1,14 +1,13 @@
 {
   "name": "whatsapp-warming-up",
   "version": "2.0.0",
-  "description": "Advanced WhatsApp Warming Up with Multi AI",
-  "main": "src/index.js",
+  "description": "WhatsApp Warming Up System with Multi AI & 2h First Delay",
+  "main": "index.js",
   "scripts": {
-    "start": "node src/index.js start",
-    "add": "node src/index.js add",
-    "keywords": "node src/index.js keywords",
-    "config": "node src/index.js config",
-    "python": "python3 python/wu_service.py"
+    "start": "node index.js start",
+    "add": "node index.js add",
+    "status": "node index.js status",
+    "keywords": "node index.js keywords"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.0",
@@ -17,7 +16,6 @@
     "blessed-contrib": "^4.11.0",
     "commander": "^11.0.0",
     "https-proxy-agent": "^7.0.0",
-    "node-cache": "^5.1.2",
     "node-cron": "^3.0.0",
     "node-telegram-bot-api": "^0.64.0",
     "pino": "^8.16.0",
