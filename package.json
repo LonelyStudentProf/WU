@@ -1,0 +1,29 @@
+{
+  "name": "whatsapp-warming-up",
+  "version": "2.0.0",
+  "description": "Advanced WhatsApp Warming Up with Multi AI",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js start",
+    "add": "node src/index.js add",
+    "keywords": "node src/index.js keywords",
+    "config": "node src/index.js config",
+    "python": "python3 python/wu_service.py"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.0",
+    "axios": "^1.6.0",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.11.0",
+    "commander": "^11.0.0",
+    "https-proxy-agent": "^7.0.0",
+    "node-cache": "^5.1.2",
+    "node-cron": "^3.0.0",
+    "node-telegram-bot-api": "^0.64.0",
+    "pino": "^8.16.0",
+    "pino-pretty": "^10.2.0",
+    "qrcode-terminal": "^0.12.0",
+    "sqlite": "^5.1.0",
+    "sqlite3": "^5.1.6"
+  }
+}
