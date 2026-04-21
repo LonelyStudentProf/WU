@@ -1,0 +1,29 @@
+{
+  "telegram": {
+    "enabled": false,
+    "token": "",
+    "chatId": ""
+  },
+  "proxy": {
+    "enabled": false,
+    "url": "",
+    "startTime": 0,
+    "endTime": 0
+  },
+  "bio": {
+    "enabled": true,
+    "autoUpdate": true
+  },
+  "cooldown": 10800000,
+  "aiModels": [
+    "glm47flash",
+    "gpt-o4-mini", 
+    "deepseekr1",
+    "gptoss120b",
+    "qwq32b",
+    "phi2",
+    "gemini-2.0-flash"
+  ],
+  "pairingMode": false,
+  "reconnectAttempts": 5
+}
