@@ -8,16 +8,18 @@
     "enabled": false,
     "url": "",
     "startTime": 0,
-    "endTime": 0
+    "endTime": 0,
+    "list": []
   },
   "bio": {
     "enabled": true,
     "autoUpdate": true
   },
-  "cooldown": 10800000,
+  "cooldown": 3,
+  "firstConnectDelay": 2,
   "aiModels": [
     "glm47flash",
-    "gpt-o4-mini", 
+    "gpt-o4-mini",
     "deepseekr1",
     "gptoss120b",
     "qwq32b",
@@ -25,5 +27,25 @@
     "gemini-2.0-flash"
   ],
   "pairingMode": false,
-  "reconnectAttempts": 5
+  "reconnectAttempts": 5,
+  "keywords": {
+    "autoGenerate": true,
+    "maxAIKeywords": 100,
+    "fallbackKeywords": [
+      "Halo",
+      "Assalamualaikum",
+      "Selamat pagi",
+      "Apa kabar?",
+      "Salam kenal",
+      "Hai"
+    ]
+  },
+  "monitoring": {
+    "enabled": true,
+    "refreshInterval": 3000
+  },
+  "logging": {
+    "level": "info",
+    "retentionDays": 7
+  }
 }
